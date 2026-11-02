@@ -16,6 +16,11 @@ export function subtract(a, b) {
   return a - b
 }
 
+/** 计算两数之积。 */
+export function multiply(a, b) {
+  return a * b
+}
+
 /** 是否为偶数。 */
 export function isEven(value) {
   return value % 2 === 0
