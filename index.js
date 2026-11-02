@@ -11,6 +11,11 @@ export function sum(values) {
   return values.reduce((total, value) => total + value, 0)
 }
 
+/** 计算两数之差。 */
+export function subtract(a, b) {
+  return a - b
+}
+
 /** 是否为偶数。 */
 export function isEven(value) {
   return value % 2 === 0
